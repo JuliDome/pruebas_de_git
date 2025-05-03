@@ -11,6 +11,7 @@ git branch: Muestra la rama en la que es está trabajando.
 git branch RAMA: Crea una rama con el nombre ingresado.
 git branch -m NOMBREVIEJO NOMBRENUEVO: Se le cambia el nombre a una rama.
 git checkout RAMA: Cambia a la rama ingresada.
+git checkout COMMITCODE: Cambia a la rama ingresada, siendo esta una que se hace automáticamente con respecto al commit que se encuentra en el log.
 git branch -d RAMA: Elimina la rama ingresada. Solo funciona si la rama no es la activa.
 git diff RAMA1 RAMA2: Muestra las diferencias que tienen entre sí las ramas ingresadas. El orden importa.
 git merge SALIDA LLEGADA: Fusiona los contenidos de la primera rama con respecto a los de la segunda. Para que funcione, hay que estar sobre la rama de llegada (después de haber commiteado los cambios sobre la rama de salida).
