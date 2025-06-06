@@ -17,3 +17,5 @@ git checkout -- ARCHIVO: Descarta los cambios hechos sobre el archivo y se vuelv
 git branch -d RAMA: Elimina la rama ingresada. Solo funciona si la rama no es la activa.
 git diff RAMA1 RAMA2: Muestra las diferencias que tienen entre sí las ramas ingresadas. El orden importa.
 git merge SALIDA LLEGADA: Fusiona los contenidos de la primera rama con respecto a los de la segunda. Para que funcione, hay que estar sobre la rama de llegada (después de haber commiteado los cambios sobre la rama de salida).
+git fetch origin: Copia el repo remoto de GitHub.
+git reset --hard origin/master: Pega el repo remoto de GitHub previamente copiado.
